@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "hotstar IMDb & RT Ratings",
+  "version": "1.0",
+  "description": "Shows IMDb and Rotten Tomatoes ratings below Netflix titles.",
+  "host_permissions": ["https://www.omdbapi.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.primevideo.com/*", "*://www.hotstar.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

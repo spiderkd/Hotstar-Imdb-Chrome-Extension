@@ -1,0 +1,19 @@
+.imdb-rating-badge {
+  position: absolute;
+  bottom: 25px;
+  left: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  z-index: 100;
+  line-height: 1.2;
+}
+
+.imdb-rating-badge .rt {
+  margin-left: 6px;
+  font-weight: 500;
+  font-size: 12px;
+}
